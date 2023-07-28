@@ -1,5 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+html, body{
+    height: 100%;
+}
+
+body {
+    font-family: 'Edu SA Beginner', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+}
+
+h1{
+    text-align: center;
+    padding: 1rem;
+    color: indianred;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.inputs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    outline: none;
+}
+
+input,  button{
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 2px solid royalblue;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    text-align: center;
+    color: brown;
+}
+
+.decimal{
+    font-size: 3rem;
+    text-align: center;
+    padding: 1rem;
+    color: darkgreen;
+}
+
+button{
+    cursor: pointer;
+}
+
