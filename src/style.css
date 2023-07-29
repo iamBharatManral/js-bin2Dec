@@ -31,6 +31,7 @@ main{
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    max-width: 80vw;
     align-items: center;
 }
 .inputsContainer{
@@ -39,6 +40,7 @@ main{
     align-items: center;
     gap: 0.5rem;
     outline: none;
+    flex-wrap: wrap;
 }
 
 input,  button{
@@ -54,7 +56,6 @@ input,  button{
 .decimal{
     font-size: 3rem;
     text-align: center;
-    padding: 1rem;
     color: darkgreen;
 }
 

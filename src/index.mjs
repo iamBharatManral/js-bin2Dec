@@ -69,9 +69,9 @@ const app = () => {
         if(actionType === ADD_BINARY){
             const newInput = createLabelInput(handleInput, 0)
             inputsContainer.appendChild(newInput)
-            decimal.innerText = bin2Dec(state.binaries)
+            decimal.innerText = `Decimal: ${bin2Dec(state.binaries)}`
         }else if(actionType === CHANGE_BINARIES){
-            decimal.innerText = bin2Dec(state.binaries)
+            decimal.innerText = `Decimal: ${bin2Dec(state.binaries)}`
         }
     }
 
