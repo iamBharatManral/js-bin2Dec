@@ -27,8 +27,13 @@ h1{
     font-size: 3rem;
     font-weight: bolder;
 }
-
-.inputs{
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+.inputsContainer{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,5 +60,10 @@ input,  button{
 
 button{
     cursor: pointer;
+}
+
+input:invalid{
+    background: red;
+    color: wheat;
 }
 

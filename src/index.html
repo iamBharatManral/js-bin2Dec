@@ -3,42 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
-    <script src="index.js" defer></script>
+    <script src="index.mjs" defer type="module"></script>
     <title>Bin2Dec</title>
 </head>
 <body>
-    <header>
-        <h1>Bin2Dec</h1>
-    </header>
-    <main>
-        <div class="inputs">
-            <label>
-                <input type="text" value="0"/>
-            </label>
-            <label>
-                <input type="text" value="0"/>
-            </label>
-            <label>
-                <input type="text" value="0"/>
-            </label>
-            <label>
-                <input type="text" value="0"/>
-            </label>
-            <label>
-                <input type="text" value="0"/>
-            </label>
-            <label>
-                <input type="text" value="0"/>
-            </label>
-            <label>
-                <input type="text" value="0"/>
-            </label>
-            <label>
-                <input type="text" value="0"/>
-            </label>
-            <button type="button">+</button>
-        </div>
-        <div class="decimal">0</div>
-    </main>
+<header>
+    <h1>Bin2Dec</h1>
+</header>
+<main>
+    <div class="inputsContainer">
+        <input type="text" value="0" pattern="[01]{1}" maxlength="1" />
+        <input type="text" value="0" pattern="[01]{1}" maxlength="1" />
+        <input type="text" value="0" pattern="[01]{1}" maxlength="1" />
+        <input type="text" value="0" pattern="[01]{1}" maxlength="1" />
+        <input type="text" value="0" pattern="[01]{1}" maxlength="1" />
+        <input type="text" value="0" pattern="[01]{1}" maxlength="1" />
+        <input type="text" value="0" pattern="[01]{1}" maxlength="1" />
+        <input type="text" value="0" pattern="[01]{1}" maxlength="1" />
+    </div>
+    <button type="button">+</button>
+    <div class="decimal">0</div>
+</main>
 </body>
 </html>
